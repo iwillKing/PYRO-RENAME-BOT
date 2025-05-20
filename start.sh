@@ -5,7 +5,7 @@ pip3 install -U pip
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT /PyroBot
+  git clone https://t.me/Horn_support /PyroBot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /PyroBot
